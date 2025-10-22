@@ -1,1 +1,52 @@
-��
+/* Основные стили как на сайте */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0f0f0f, #171717);
+    -fx-font-family: 'Roboto', sans-serif;
+}
+
+.header-title {
+    -fx-text-fill: #f7f7f7;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.welcome-text {
+    -fx-text-fill: #bdbdbd;
+    -fx-font-size: 18px;
+}
+
+/* Стиль кнопки ИГРАТЬ как на сайте */
+.play-button {
+    -fx-background-color: linear-gradient(to bottom, #3AA655, #2A5A19);
+    -fx-text-fill: #07120a;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 12px 24px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: #3AA655;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+}
+
+.play-button:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(58, 166, 85, 0.6), 15, 0, 0, 0);
+}
+
+.settings-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdbdbd;
+    -fx-border-color: #bdbdbd;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.settings-button:hover {
+    -fx-background-color: rgba(189, 189, 189, 0.1);
+    -fx-text-fill: #f7f7f7;
+}
